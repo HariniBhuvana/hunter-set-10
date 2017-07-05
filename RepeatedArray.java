@@ -5,13 +5,13 @@ public class RepeatedArray {
 	private static Scanner s;
 
 	public static void main(String[] args) {
-		s = new Scanner(System.in);
-		System.out.println("Enter Number of Elements");
-		int a = s.nextInt();
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter Number of Elements :");
+		int b = s.nextInt();
 		System.out.println("Enter Elements");
-		int ar[] = new int[a];
+		int ar[] = new int[b];
 		int arr[] = new int[ar.length];
-		for (int i = 0; i < a; i++) {
+		for (int i = 0; i < b; i++) {
 			ar[i] = s.nextInt();
 		}
 		for (int i = 0; i < ar.length; i++) {
@@ -21,7 +21,7 @@ public class RepeatedArray {
 				}
 			}
 		}
-		System.out.print("The Repeated Numbers : ");
+		System.out.print("The Repeated Numbers are : ");
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] > 0)
 				System.out.print(arr[i] + " ");
