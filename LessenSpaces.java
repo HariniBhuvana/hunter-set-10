@@ -14,10 +14,10 @@ public class LessenSpaces {
 			for (int i = 0; i < sr.length - 1; i++) {
 				len += 1;
 			}
-			System.out.println("Number of Spaces is : " + len + " for Entered String " + "/*" + s1 + "*/");
-			System.out.println("Lessen Space is : " + (len - 1) + " for Entered String " + "/*" + s1 + "*/");
+			System.out.println("Number of Spaces is : " + len + " for Entered String "+ s1 );
+			System.out.println("Lessen Space is : " + (len - 1) + " for Entered String "+ s1 );
 		} else {
-			System.out.println("Lessen Space is : " + (len) + " for Entered String " + "/*" + s1 + "*/");
+			System.out.println("Lessen Space is : " + (len) + " for Entered String "  + s1 );
 		}
 
 	}
